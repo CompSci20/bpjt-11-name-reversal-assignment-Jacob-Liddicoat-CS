@@ -6,6 +6,8 @@ public class Tester
 {
  public static void main(String args[])
  {
-  system.out.println("Please enter your name. Jacob Liddicoat");
-  {
-   
+  Scanner kbReader = new Scanner(System.in);
+  System.out.print("Please enter your name. ");
+  String name = kbReader.nextLine();
+  
+  
