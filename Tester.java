@@ -14,4 +14,9 @@ public class Tester
   String reversedName ="";
   for(int j =strLen - 1;j>= 0;j--)
   {
-   
+   String letter = name.substring(j,j+ 1); //picks up just one letter of my name at a time
+   reversedName = reversedName + letter;
+  }
+  System.outprintln(reversedName);
+ }
+}
