@@ -10,4 +10,8 @@ public class Tester
   System.out.print("Please enter your name. ");
   String name = kbReader.nextLine();
   
-  
+  int strLen = name.length();
+  String reversedName ="";
+  for(int j =strLen - 1;j>= 0;j--)
+  {
+   
