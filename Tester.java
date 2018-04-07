@@ -7,7 +7,7 @@ public class Tester
  public static void main(String args[])
  {
   Scanner kbReader = new Scanner(System.in);
-  System.out.print("Please enter your name. ");
+  System.out.print("Please enter your name. Jacob Liddicoat");
   String name = kbReader.nextLine();
   
   int strLen = name.length();
